@@ -1,1 +1,74 @@
-<mxfile host="app.diagrams.net" modified="2021-05-30T14:17:39.833Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36" version="14.7.2" etag="iiCPuNYJpj7SMBuVOm-_" type="github"><diagram id="PNLDdAJZvh1rPjS4K-52">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-05-30T14:27:08.495Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36" etag="nSeF6LbAOL6irIFkt4Hg" version="14.7.2" type="github">
+  <diagram id="PNLDdAJZvh1rPjS4K-52" name="Page-1">
+    <mxGraphModel dx="981" dy="526" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="P0jFH5JyqIRosU7y8pA5-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="P0jFH5JyqIRosU7y8pA5-1" target="P0jFH5JyqIRosU7y8pA5-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="P0jFH5JyqIRosU7y8pA5-1" value="获取ASME搜索URL" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="50" y="170" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="P0jFH5JyqIRosU7y8pA5-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="P0jFH5JyqIRosU7y8pA5-3" target="P0jFH5JyqIRosU7y8pA5-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="P0jFH5JyqIRosU7y8pA5-3" value="论文初始名单" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="50" y="50" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="P0jFH5JyqIRosU7y8pA5-4" value="在返回信息中提取检索到的论文的URL" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="170" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="P0jFH5JyqIRosU7y8pA5-8" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="P0jFH5JyqIRosU7y8pA5-4" target="P0jFH5JyqIRosU7y8pA5-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="360" y="380" as="sourcePoint" />
+            <mxPoint x="310" y="310" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="260" y="280" />
+              <mxPoint x="110" y="280" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="P0jFH5JyqIRosU7y8pA5-9" value="无效URL" style="edgeLabel;resizable=0;html=1;align=center;verticalAlign=middle;" connectable="0" vertex="1" parent="P0jFH5JyqIRosU7y8pA5-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="P0jFH5JyqIRosU7y8pA5-10" value="" style="endArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="P0jFH5JyqIRosU7y8pA5-4" target="P0jFH5JyqIRosU7y8pA5-12">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="390" y="199.9999999999999" as="sourcePoint" />
+            <mxPoint x="440" y="200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="P0jFH5JyqIRosU7y8pA5-11" value="存在" style="edgeLabel;resizable=0;html=1;align=center;verticalAlign=middle;" connectable="0" vertex="1" parent="P0jFH5JyqIRosU7y8pA5-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="P0jFH5JyqIRosU7y8pA5-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="P0jFH5JyqIRosU7y8pA5-12" target="P0jFH5JyqIRosU7y8pA5-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="P0jFH5JyqIRosU7y8pA5-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="P0jFH5JyqIRosU7y8pA5-12" target="P0jFH5JyqIRosU7y8pA5-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="P0jFH5JyqIRosU7y8pA5-12" value="加入Wait_List" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="170" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="P0jFH5JyqIRosU7y8pA5-16" value="解析HTML提取相关实体信息" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="500" y="120" width="90" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="P0jFH5JyqIRosU7y8pA5-17" value="监听网络请求获取动态渲染的信息" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="500" y="210" width="110" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="P0jFH5JyqIRosU7y8pA5-28" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="P0jFH5JyqIRosU7y8pA5-16" target="P0jFH5JyqIRosU7y8pA5-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="230" y="79.66" as="sourcePoint" />
+            <mxPoint x="390" y="79.66" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="545" y="80" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="P0jFH5JyqIRosU7y8pA5-29" value="扩充论文名单" style="edgeLabel;resizable=0;html=1;align=center;verticalAlign=middle;" connectable="0" vertex="1" parent="P0jFH5JyqIRosU7y8pA5-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
